@@ -1,0 +1,20 @@
+# Core reconstruction (reconstruction/odm_light_cuda_v11.py)
+pycolmap-cuda            # or pycolmap on CPU-only machines
+torch
+opencv-python
+numpy
+pyproj
+Pillow
+psutil
+
+# LightGlue (installed from git — see install_dependencies())
+# git+https://github.com/cvg/LightGlue.git
+
+# Orthomosaic + rasters (orthomosaic/, analysis/plot_analyzer/)
+rasterio
+plyfile
+scipy
+shapely
+matplotlib
+pandas
+openpyxl                 # reading the plot-design .xlsx
